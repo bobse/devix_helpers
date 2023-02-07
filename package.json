@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobse/devix_helpers"
+    "url": "https://github.com/bobse/devix_helpers.git"
   },
   "scripts": {
     "test": "jest",

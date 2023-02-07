@@ -17,11 +17,14 @@
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p ./tsconfig.esm.json && mv dist/esm/index.js dist/esm/index.mjs",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "semantic-release": "semantic-release"
   },
   "author": "Roberto Seba@Devix 2023",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.2",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.13.0",
     "assert": "^1.4.1",

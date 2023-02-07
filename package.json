@@ -1,6 +1,6 @@
 {
   "name": "@devix/helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helpers gerais para dia-a-dia.",
   "main": "./dist/index.js",
   "types": "./dist/cjs/types/index.d.ts",

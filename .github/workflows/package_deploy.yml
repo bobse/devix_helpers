@@ -35,12 +35,12 @@ jobs:
           npm test
 
   publish:
+      runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           persist-credentials: false
 
-      # you'll need to add an `id` in order to access output variables
       - uses: codfish/semantic-release-action@v2
         id: semantic
         env:

@@ -27,3 +27,7 @@ Funções:
 
 - converteTipoDotEnv(valor: string | undefined)
 ```
+
+### Módulo CpfCnpjHelper:
+
+[README] (./src/cpf_cnpj/readme.md)

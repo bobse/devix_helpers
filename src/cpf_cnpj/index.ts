@@ -18,7 +18,7 @@ class CpfCnpjHelper {
   }
 
   get formatado() {
-    if (!this.valido) return
+    if (!this.valido) return 'Documento inválido'
 
     if (this._doc_type === 'CPF') {
       return this._doc_ident.replace(
@@ -34,6 +34,8 @@ class CpfCnpjHelper {
   }
 
   get somenteNumero() {
+    if (!this.valido) return 'Documento inválido'
+
     return this._doc_ident
   }
 

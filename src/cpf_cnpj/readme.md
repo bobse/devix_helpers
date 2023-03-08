@@ -13,7 +13,8 @@
 
   documento.tipo_documento //'CPF' ou 'CNPJ' ou 'INVALIDO'
 
-  // Comparando objetos - independente de pontuação
+  // Comparando objetos - independente de pontuação.
+  // Parametro pode ser objeto do tipo CpfCnpjHelper ou string.
   documento.igual('631.724.462-63') // boolean
 ```
 
